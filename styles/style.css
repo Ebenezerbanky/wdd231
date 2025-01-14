@@ -1,0 +1,130 @@
+/* Styling the header */
+header {
+    background-color: #003366; /* Dark blue background */
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 150px; /* Set a height for the header */
+    text-align: center; /* Center text inside */
+    padding: 20px; /* Optional padding for spacing */
+}
+
+/* Styling the image */
+header img {
+    max-height: 100px; /* Limit the image height */
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* Styling the h1 */
+header h1 {
+    color: white; /* Set the text color to white */
+    font-size: 2rem; /* Adjust the size of the text */
+    margin: 0; /* Remove any default margins */
+}
+
+/* Styling the navigation bar */
+nav {
+    background-color: black; /* Black background for the nav */
+    padding: 10px 20px; /* Add padding for spacing */
+    text-align: center; /* Center the links horizontally */
+}
+
+/* Styling the individual links */
+nav a {
+    color: white; /* Default color for all links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 100px; /* Add space around the links */
+    font-size: 1.2rem; /* Adjust the font size */
+    justify-content: space-around;
+}
+
+/* Special styling for the "Home" link */
+nav a:first-child {
+    color: yellow; /* Change "Home" link color to yellow */
+}
+
+/* Optional: Add a hover effect for links */
+nav a:hover {
+    color: #ddd; /* Change color on hover */
+}
+ 
+/* Styling the main content area to use grid layout */
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 20px; /* Space between the two sections */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Styling each section */
+section {
+    background-color: #f4f4f4; /* Light grey background for the section */
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box; /* Ensure padding is included in total width */
+    min-height: 400px;
+}
+
+/* Styling the header (h1) of the section */
+section h1 {
+    background-color: darkblue; /* Dark blue background for the h1 */
+    color: white; /* White text color */
+    padding: 20px; /* Padding inside the h1 */
+    text-align: center; /* Center the text */
+    margin: 0; /* Remove default margin */
+}
+
+/* Optional: Add some styling for paragraph text inside the section */
+section p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+.box-container1 {
+    display: flex; /* Enables Flexbox to align boxes in a row */
+    justify-content: space-around; /* Centers the boxes and adds space around them */
+    align-items: center; /* Vertically centers the boxes */
+    gap: 10px; /* Adds space between the boxes */
+}
+
+/* Styling for each box */
+.boxx {
+    background-color: rgb(106, 26, 26); /* Black background for each box */
+    color: white; /* White text color */
+    padding: 20px; /* Padding inside the box */
+    width: 200px; /* Adjust the width of each box */
+    height: 50px; /* Adjust the height of each box */
+    text-align: center; /* Centers the text inside the box */
+    border-radius: 5px; /* Optional: Adds rounded corners to the boxes */
+}
+/* Styling for the second box container */
+.box-container2 {
+    display: flex; /* Enables Flexbox */
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    justify-content: space-around; /* Distributes the boxes with space around them */
+    gap: 20px; /* Adds space between the boxes */
+    margin-top: 40px; /* Optional: Adds space above the box container */
+}
+
+/* Styling for each box */
+.box {
+    background-color: black; /* Black background for each box */
+    color: white; /* White text color */
+    padding: 20px; /* Padding inside the box */
+    width: 150px; /* Adjust the width of each box */
+    height: 100px; /* Adjust the height of each box */
+    text-align: center; /* Centers the text inside the box */
+    border-radius: 5px; /* Optional: Adds rounded corners to the boxes */
+    flex: 1 1 150px; /* Flexbox settings for each box: allows them to grow and shrink */
+}
+
+/* Make sure there are only 3 boxes per row */
+.box-container2 .box:nth-child(3n+1) {
+    flex-basis: 100%;
+}
+
+
+
+
