@@ -126,5 +126,21 @@ section p {
 }
 
 
+/* Footer Styling */
+footer {
+    background-color: #003366; /* Dark blue background */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add padding for spacing */
+    position: relative; /* Make sure the footer is at the bottom of the page */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Optional: Styling the paragraph inside the footer */
+footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 1rem; /* Set font size */
+}
 
 
