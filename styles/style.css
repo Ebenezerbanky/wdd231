@@ -1,146 +1,88 @@
 /* Styling the header */
 header {
-    background-color: #003366; /* Dark blue background */
-    display: flex; /* Use Flexbox for centering */
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-    height: 150px; /* Set a height for the header */
-    text-align: center; /* Center text inside */
-    padding: 20px; /* Optional padding for spacing */
+    background-color: #003366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
 }
-
-/* Styling the image */
 header img {
-    max-height: 100px; /* Limit the image height */
-    margin-right: 20px; /* Space between image and text */
+    max-height: 100px;
+    margin-right: 20px;
 }
-
-/* Styling the h1 */
 header h1 {
-    color: white; /* Set the text color to white */
-    font-size: 2rem; /* Adjust the size of the text */
-    margin: 0; /* Remove any default margins */
+    color: white;
+    font-size: 2rem;
+    margin: 0;
 }
 
-/* Styling the navigation bar */
+/* Navigation bar */
 nav {
-    background-color: black; /* Black background for the nav */
-    padding: 10px 20px; /* Add padding for spacing */
-    text-align: center; /* Center the links horizontally */
+    background-color: black;
+    padding: 10px 20px;
+    text-align: center;
 }
-
-/* Styling the individual links */
 nav a {
-    color: white; /* Default color for all links */
-    text-decoration: none; /* Remove underline from links */
-    margin: 0 100px; /* Add space around the links */
-    font-size: 1.2rem; /* Adjust the font size */
-    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    margin: 0 100px;
+    font-size: 1.2rem;
 }
-
-/* Special styling for the "Home" link */
 nav a:first-child {
-    color: yellow; /* Change "Home" link color to yellow */
+    color: yellow;
+}
+nav a:hover {
+    color: #ddd;
 }
 
-/* Optional: Add a hover effect for links */
-nav a:hover {
-    color: #ddd; /* Change color on hover */
-}
- 
-/* Styling the main content area to use grid layout */
+/* Main grid layout */
 main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-    gap: 20px; /* Space between the two sections */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     padding: 20px;
     margin-top: 20px;
 }
-
-/* Styling each section */
 section {
-    background-color: #f4f4f4; /* Light grey background for the section */
+    background-color: #f4f4f4;
     padding: 20px;
     border-radius: 8px;
-    box-sizing: border-box; /* Ensure padding is included in total width */
+    box-sizing: border-box;
     min-height: 400px;
 }
 
-/* Styling the header (h1) of the section */
-section h1 {
-    background-color: darkblue; /* Dark blue background for the h1 */
-    color: white; /* White text color */
-    padding: 20px; /* Padding inside the h1 */
-    text-align: center; /* Center the text */
-    margin: 0; /* Remove default margin */
+/* Box containers */
+.box-container1, .box-container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
 }
-
-/* Optional: Add some styling for paragraph text inside the section */
-section p {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #666;
+.boxx, .box {
+    background-color: rgb(106, 26, 26);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
 }
-
-.box-container1 {
-    display: flex; /* Enables Flexbox to align boxes in a row */
-    justify-content: space-around; /* Centers the boxes and adds space around them */
-    align-items: center; /* Vertically centers the boxes */
-    gap: 10px; /* Adds space between the boxes */
-}
-
-/* Styling for each box */
 .boxx {
-    background-color: rgb(106, 26, 26); /* Black background for each box */
-    color: white; /* White text color */
-    padding: 20px; /* Padding inside the box */
-    width: 200px; /* Adjust the width of each box */
-    height: 50px; /* Adjust the height of each box */
-    text-align: center; /* Centers the text inside the box */
-    border-radius: 5px; /* Optional: Adds rounded corners to the boxes */
+    width: 200px;
+    height: 50px;
 }
-/* Styling for the second box container */
-.box-container2 {
-    display: flex; /* Enables Flexbox */
-    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
-    justify-content: space-around; /* Distributes the boxes with space around them */
-    gap: 20px; /* Adds space between the boxes */
-    margin-top: 40px; /* Optional: Adds space above the box container */
-}
-
-/* Styling for each box */
 .box {
-    background-color: black; /* Black background for each box */
-    color: white; /* White text color */
-    padding: 20px; /* Padding inside the box */
-    width: 150px; /* Adjust the width of each box */
-    height: 100px; /* Adjust the height of each box */
-    text-align: center; /* Centers the text inside the box */
-    border-radius: 5px; /* Optional: Adds rounded corners to the boxes */
-    flex: 1 1 150px; /* Flexbox settings for each box: allows them to grow and shrink */
+    width: 150px;
+    height: 100px;
 }
 
-/* Make sure there are only 3 boxes per row */
-.box-container2 .box:nth-child(3n+1) {
-    flex-basis: 100%;
-}
-
-
-/* Footer Styling */
+/* Footer */
 footer {
-    background-color: #003366; /* Dark blue background */
-    color: white; /* White text color */
-    text-align: center; /* Center the text */
-    padding: 20px; /* Add padding for spacing */
-    position: relative; /* Make sure the footer is at the bottom of the page */
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
-
-/* Optional: Styling the paragraph inside the footer */
-footer p {
-    margin: 0; /* Remove default margin */
-    font-size: 1rem; /* Set font size */
-}
-
-
