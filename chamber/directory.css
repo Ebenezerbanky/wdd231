@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #f4f4f4;
+}
+
+.logo h1 {
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+.hero-image {
+  padding: 40px;
+  border: 2px dashed #ccc;
+}
+
+.hero button {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.events, .weather, .forecast {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.box, .weather-box, .forecast-box {
+  height: 150px;
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+}
+
+.business-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.business-card {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  padding: 20px;
+  background: #ddd;
+  text-align: center;
+}
+
+.footer-info, .social {
+  margin-bottom: 10px;
+}
