@@ -4,6 +4,52 @@
   box-sizing: border-box;
 }
 
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.members-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Grid layout */
+.member-card.grid-item {
+  width: 30%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.member-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* List layout */
+.member-card.list-item {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Toggle button styles */
+#toggle-view {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
