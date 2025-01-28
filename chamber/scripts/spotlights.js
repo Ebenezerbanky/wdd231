@@ -1,6 +1,4 @@
 // spotlights.js
-
-// Example chamber members data (you can replace this with your actual JSON source)
 const members = [
     { 
         companyName: 'Gold Co', 
@@ -34,7 +32,7 @@ const members = [
         address: '101 Silver Blvd, Ebenezer ', 
         website: 'https://www.silvertech.com' 
     },
-    // Add more members here...
+
 ];
 
 // Filter gold and silver members
@@ -49,7 +47,7 @@ function displaySpotlights() {
         randomMembers.push(spotlightMembers.splice(randomIndex, 1)[0]);
     }
 
-    // Create HTML for spotlight cards
+    
     let spotlightHTML = '';
     randomMembers.forEach(member => {
         spotlightHTML += `
