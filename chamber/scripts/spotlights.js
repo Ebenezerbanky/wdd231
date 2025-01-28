@@ -7,7 +7,7 @@ const members = [
         membershipLevel: 'Gold', 
         logo: 'goldco-logo.jpg', 
         phone: '123-456-7890', 
-        address: '123 Gold St, Timbuktu', 
+        address: '123 Gold St, Ebenezer ', 
         website: 'https://www.goldco.com' 
     },
     { 
@@ -15,7 +15,7 @@ const members = [
         membershipLevel: 'Silver', 
         logo: 'silversolutions-logo.jpg', 
         phone: '987-654-3210', 
-        address: '456 Silver Rd, Timbuktu', 
+        address: '456 Silver Rd, Ebenezer ', 
         website: 'https://www.silversolutions.com' 
     },
     { 
@@ -23,7 +23,7 @@ const members = [
         membershipLevel: 'Gold', 
         logo: 'eliteenterprises-logo.jpg', 
         phone: '555-123-4567', 
-        address: '789 Elite Ave, Timbuktu', 
+        address: '789 Elite Ave, Ebenezer ', 
         website: 'https://www.eliteenterprises.com' 
     },
     { 
@@ -31,7 +31,7 @@ const members = [
         membershipLevel: 'Silver', 
         logo: 'silvertech-logo.jpg', 
         phone: '123-789-6543', 
-        address: '101 Silver Blvd, Timbuktu', 
+        address: '101 Silver Blvd, Ebenezer ', 
         website: 'https://www.silvertech.com' 
     },
     // Add more members here...

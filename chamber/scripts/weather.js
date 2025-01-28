@@ -1,7 +1,7 @@
 // weather.js
 
 const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
-const city = 'Timbuktu'; // Replace with the chamber's actual location or coordinates
+const city = 'Abeokuta'; // Replace with the chamber's actual location or coordinates
 
 // Fetch weather data
 async function getWeatherData() {
