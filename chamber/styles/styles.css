@@ -1,137 +1,197 @@
-* {
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  background-color: #f5f5f5;
 }
 
-/* Base styles */
-body {
-  font-family: Arial, sans-serif;
-}
-
-.members-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-/* Grid layout */
-.member-card.grid-item {
-  width: 30%;
-  border: 1px solid #ddd;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.member-card img {
-  width: 100%;
-  height: auto;
-}
-
-/* List layout */
-.member-card.list-item {
-  width: 100%;
-  border: 1px solid #ddd;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-/* Toggle button styles */
-#toggle-view {
-  margin: 20px;
-  padding: 10px;
-  font-size: 16px;
-}
-
-/* Footer styles */
-footer {
-  margin-top: 40px;
-  padding: 20px;
-  background-color: #f8f8f8;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-
+/* Header Styles */
 header {
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  background: #f4f4f4;
 }
 
-.logo h1 {
-  font-size: 1.5em;
-}
-
-nav ul {
-  list-style: none;
+.logo-container {
   display: flex;
+  align-items: center;
 }
 
-nav ul li {
-  margin-right: 15px;
+.logo {
+  width: 48px;
+  height: 48px;
+  background-color: #9e9e9e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-nav ul li a {
+.logo-text h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.logo-text p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+nav a {
+  color: #000;
+  margin-right: 20px;
   text-decoration: none;
-  color: black;
 }
 
+nav a:hover {
+  color: #007bff;
+}
+
+.theme-toggle {
+  background-color: #9e9e9e;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.theme-toggle i {
+  font-size: 18px;
+}
+
+/* Hero Section */
 .hero {
-  padding: 20px;
+  background-color: #cfcfcf;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   text-align: center;
-  background: #ddd;
 }
 
-.hero-image {
-  padding: 40px;
-  border: 2px dashed #ccc;
-}
-
-.hero button {
-  margin-top: 10px;
+.ticket-button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
   padding: 10px 20px;
+  background-color: #9e9e9e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.content {
+/* Home Section */
+.home h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-container {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-.events, .weather, .forecast {
-  flex: 1;
-  margin: 0 10px;
-}
-
-.box, .weather-box, .forecast-box {
-  height: 150px;
-  border: 1px solid #ccc;
-  background: #f4f4f4;
-}
-
-.business-list {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.business-card {
+.card {
+  background-color: #9e9e9e;
+  color: white;
+  padding: 15px;
+  width: 30%;
   text-align: center;
-  padding: 10px;
-  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
+.grid-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.weather-card {
+  width: 30%;
+  background-color: #bdbdbd;
+  height: 200px;
+}
+
+.weather-details {
+  width: 30%;
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+}
+
+.weather-details i {
+  font-size: 48px;
+}
+
+.forecast {
+  width: 30%;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+/* Businesses Section */
+.businesses {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.business {
+  background-color: #e0e0e0;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.business-logo {
+  width: 64px;
+  height: 64px;
+  background-color: #9e9e9e;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.business h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.business p {
+  font-size: 0.875rem;
+}
+
+/* Footer Styles */
 footer {
-  padding: 20px;
-  background: #ddd;
+  background-color: #e0e0e0;
+  padding: 40px 20px;
   text-align: center;
 }
 
-.footer-info, .social {
-  margin-bottom: 10px;
+footer p {
+  margin: 5px 0;
+}
+
+.social-links a {
+  color: #000;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+footer .fab {
+  font-size: 24px;
 }
