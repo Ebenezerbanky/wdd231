@@ -1,6 +1,6 @@
 // weather.js
 
-const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
+const apiKey = '1c672706ec8404c7b4f5496e506eeded'; // Replace with your OpenWeatherMap API key
 const city = 'Abeokuta'; // Replace with the chamber's actual location or coordinates
 
 // Fetch weather data
