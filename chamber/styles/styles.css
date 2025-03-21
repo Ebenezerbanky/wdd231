@@ -206,7 +206,7 @@ nav a:hover {
 }
 
 .card {
-  background-color: #000;
+  background-color: #a99f9f;
   color: white;
   padding: 15px;
   flex: 1 1 calc(33.333% - 20px); /* Responsive card width */
@@ -266,6 +266,147 @@ nav a:hover {
   font-size: 0.875rem;
 }
 
+
+@media screen and (max-width: 1200px) {
+    
+  main{
+      margin-top: 10%;
+      margin-bottom: 15%;
+  }
+  #directoryMain{
+      margin-top: 10%;
+      margin-bottom: 15%;
+  }
+  #joinMain{
+      margin-top: 7%;
+      margin-bottom: 15%;
+  }
+
+  header{
+      grid-template-columns: 1fr 1fr 2fr 1fr;
+  }
+
+  #hambIcon {
+      display: grid;
+      margin: auto;
+  }
+  #hambIcon img{
+      width: 150%;
+  }
+
+  #hambLinks{
+      flex-direction: column;
+      background-color: #303f9f;
+  }
+  #hambLinks a{
+      text-decoration: none;
+      text-align: center;
+      font-size: 1.2em;
+      padding: 20px;
+      font-weight: bold;
+      color: whitesmoke;
+      border: 1px solid whitesmoke;
+  }
+  #hambLinks a:hover{ background-color:  #001970;}
+
+  #hambIcon img:hover { cursor: pointer; }
+
+  #name{
+      text-align: center;
+      align-self: center;
+  }
+
+  #smedia {
+      align-self: center;
+      justify-self: center;
+      gap: 35px;
+      margin: 00px;
+  }
+  #smedia img{
+      
+      width: 150%;
+  }
+  #smedia img:hover{
+      border: none;
+      border-radius: 0px;
+      width: 150%;
+  }
+
+  nav{ 
+      display: none;
+  }
+
+  #grid{ grid-template-columns: 3fr 2fr; }
+  
+  #hero{
+      grid-column: 1/3;
+      grid-row: 1/2;
+  }
+
+  #Fdescription { text-align: center; font-size: 1.1em;}
+
+  
+  #join{
+      grid-column: 1/3;
+      grid-row: 4/5;
+  }
+  
+  #news{
+      grid-column: 1/3;
+      grid-row: 2/3;
+  }
+  
+  #spotlight{
+      display: flex;
+      justify-content: space-around;
+      grid-column: 1/3;
+      grid-row: 3/4;
+  }
+  .spotlights{ width: 100%;}
+  #spotlight3{ display: none;}
+
+  #formGrid{
+      display: block;
+      margin-right: 30%;
+  }
+
+  label{
+      font-size: 0.8em;
+  }
+
+
+  #listview table{
+      font-size: 0.8em;
+  }
+  
+  .cards{
+      grid-template-columns: 1fr 1fr;
+  }
+
+  #contactGrid{
+      display: block;
+  }
+
+  #directorPortraits{
+      margin-bottom: 15%;
+  }
+  #directorPortraits img{
+      width: 75%;
+      border: 8px solid #001970;
+  }
+
+  #meetDirectors{
+      margin-top: 10%;
+  }
+  
+  footer{ font-size: 0.99em; }
+  footer .logo { 
+      width: 60%; 
+      padding: 0px;
+      margin-top: 3%;
+  }
+
+}
 /* Footer Styles */
 footer {
   display: grid;

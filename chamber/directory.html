@@ -1,170 +1,86 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Timbuktu Chamber of Commerce</title>
-  <link rel="stylesheet" href="styles/styles.css"> <!-- Link to the external CSS file -->
-<!-- </head> -->
-<!-- <body>
-
-  <header>
-    <div class="header-content">
-      <div class="logo-container">
-        <div class="logo">
-          <i class="fas fa-image"></i>
-        </div>
-        <div class="logo-text">
-          <h1>Timbuktu</h1>
-          <p>Chamber of Commerce</p>
-        </div>
-      </div>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Directory</a>
-        <a href="#">Join</a>
-        <a href="#">Discover</a>
-      </nav>
-      <button class="theme-toggle">
-        <i class="fas fa-adjust"></i>
-      </button>
-    </div>
-  </header> --> 
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Black Chamber of Commerce - Directory</title>
-    <meta name="author" content="Bankole Ebenezer">
-    <meta name="description" content="Chamber of Commerce Directory from Sergio Silva in WDD 230: Web Frontend Development at BYUI" />
+    <title>Eben-Dev Chamber of Commerce - Directory</title>
+    <meta name="description" content="Chamber of Commerce Directory from Ebenezer Bankole in WDD 230: Web Frontend Development at BYUI" />
   
-    <link rel="icon" href="/images/167693270.jpeg">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/normalizee.css">
-   
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&family=Stalinist+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bas.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 
-    <!-- Open Graph Meta Tags-->
-    <meta property="og:title" content="Black Chamber of Commerce - Directory" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="images/167693270.jpeg" />
-    <meta property="og:url" content="https://yourwebsite.com/directory.html" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&family=Stalinist+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-<!-- 
+
         <a id="hambIcon" onclick="hambButton()">
           <img src="images/hamburguer.png" alt="hamburguer icon">
-        </a> -->
+        </a>
       
-    <img class="logo" src="/images/stock-vector-globe-icon-red-icon-isolated-on-a-white-background-2266544141.jpg" alt="Black Chamber logo">
+    <img class="logo" src="images/logo.webp" alt="Eben-Dev Chamber logo">
     <h1 id="name">Eben-Dev Chamber</h1>
 
     <nav>
         <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
         <a href="directory.html">Directory</a>
         <a href="join.html">Join</a>     
         <a href="contact.html">Contact</a>
     </nav>
-<!-- 
+
     <div id="smedia">
         <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook logo"></a>
         <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn logo"></a>
-    </div> -->
+    </div>
 
-    <!-- <div class="today"></div> -->
+    <div class="today"></div>
 </header>
 
-<!-- <div id="hambLinks">
+<div id="hambLinks">
     <a href="index.html">Home</a>
     <a href="directory.html">Directory</a>
     <a href="join.html">Join</a>     
     <a href="contact.html">Contact</a>
-</div> -->
+</div>
 
+<h1 class="pageName">Business Directory</h1>
+<main id="directoryMain">
 
-  <main>
-    <h1 id="name">Eben-Dev Chamber</h1>
-    <section class="hero">
-      <span>Scalable, responsive hero image</span>
-      <button class="ticket-button">Keynote Tickets</button>
-    </section>
+<section id="bizheader">
+    <img src="images/gridicon.png" id="gridselect" alt="grid icon">
+    <img src="images/listicon.png" id="listselect" alt="list icon">
+</section>
 
-    <section class="home">
-      <h2>Home</h2>
-      <div class="card-container">
-        <div class="card">Events</div>
-        <div class="card">Current Weather</div>
-        <div class="card">Weather Forecast</div>
-      </div>
+<section id="cardview">
+    <div class="cards"></div>
+</section>
 
-      <div class="grid-container">
-        <div class="weather-card"></div>
-        <div class="weather-details">
-          <i class="fas fa-cloud-sun"></i>
-          <p>75°F</p>
-          <p>Party Cloudy</p>
-          <p>High: 85°</p>
-          <p>Low: 52°</p>
-          <p>Humidity: 34%</p>
-          <p>Sunrise: 7:30am</p>
-          <p>Sunset: 9:59pm</p>
-        </div>
-        <div class="forecast">
-          <p>Today: 90°F</p>
-          <p>Wednesday: 89°F</p>
-          <p>Thursday: 68°F</p>
-        </div>
-      </div>
-    </section>
+<section id="listview">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+             <th>Phone</th>
+             <th>Website</th>
+        </tr>
+    </table>
+</section>
+</main>
 
-    <section class="businesses">
-      <div class="business">
-        <div class="business-logo"></div>
-        <h3>Business Name</h3>
-        <p>Business Tag Line</p>
-        <p><strong>Email:</strong> info@gmail.com</p>
-        <p><strong>Phone:</strong> 800-555-1234</p>
-        <p><strong>URL:</strong> mybusiness.com</p>
-      </div>
-      <div class="business">
-        <div class="business-logo"></div>
-        <h3>Business Name</h3>
-        <p>Business Tag Line</p>
-        <p><strong>Email:</strong> info@gmail.com</p>
-        <p><strong>Phone:</strong> 800-555-1234</p>
-        <p><strong>URL:</strong> mybusiness.com</p>
-      </div>
-      <div class="business">
-        <div class="business-logo"></div>
-        <h3>Business Name</h3>
-        <p>Business Tag Line</p>
-        <p><strong>Email:</strong> info@gmail.com</p>
-        <p><strong>Phone:</strong> 800-555-1234</p>
-        <p><strong>URL:</strong> mybusiness.com</p>
-      </div>
-    </section>
+<footer>
+    <img class="logo" src="images/logo.webp" alt="Eben-Dev Chamber logo">
+    <p id="footername"><b>Eben-Dev Chamber of commerce</b><br> Abeokuta Nigeria</p>
+    <p>contactus@blackchamber.org<br> +1 (801) 2369-9696 <br> <a href="https://www.google.com/maps/@-22.9519289,-43.2104891,2a,75y,75.73h,79.47t/data=!3m7!1e1!3m5!1sZ25DaoC5z-C_5FetgvJZfg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DZ25DaoC5z-C_5FetgvJZfg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D46.05953%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656" target="_blank">📍Location Map</a></p>
+    <p id="copyright"> &copy; <span id="year"></span> | Eben-Dev Chamber | Ebenezer Bankole | WDD 230 | <span id="time"> Last Modified: <span id="date"></span></span></p>
+</footer>
 
-    <footer>
-      <p>Timbuktu Chamber of Commerce</p>
-      <p>10 Rue De La Paix</p>
-      <p>Timbuktu, Mali 999</p>
-      <p>info@timbuktucc.org</p>
-      <p>(223) 555-2300</p>
-      <div class="social-links">
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <p>WDD231 Class Project</p>
-      <p>Marie Martínez</p>
-      <p>© 20xx Timbuktu Chamber of Commerce</p>
-      <p>Last Modification: 10/21/202X 22:12:35</p>
-    </footer>
-  </main>
+<script src="scripts/directory.js"></script>
 
 </body>
 </html>
