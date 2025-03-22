@@ -1,126 +1,50 @@
-// [
-//     {
-//         "name": "Business One",
-//         "address": "123 Business St, Timbuktu, Mali",
-//         "phone": "800-555-1111",
-//         "website": "https://businessone.com",
-//         "image": "business1.jpg",
-//         "membership_level": 1,
-//         "additional_info": "Member since 2021"
-//     },
-//     {
-//         "name": "Business Two",
-//         "address": "456 Market Rd, Timbuktu, Mali",
-//         "phone": "800-555-2222",
-//         "website": "https://businesstwo.com",
-//         "image": "business2.jpg",
-//         "membership_level": 2,
-//         "additional_info": "Silver member since 2019"
-//     },
-//     {
-//         "name": "Business Three",
-//         "address": "789 Commerce Ave, Timbuktu, Mali",
-//         "phone": "800-555-3333",
-//         "website": "https://businessthree.com",
-//         "image": "business3.jpg",
-//         "membership_level": 3,
-//         "additional_info": "Gold member since 2018"
-//     },
-//     {
-//         "name": "Business Four",
-//         "address": "321 Enterprise Blvd, Timbuktu, Mali",
-//         "phone": "800-555-4444",
-//         "website": "https://businessfour.com",
-//         "image": "business4.jpg",
-//         "membership_level": 1,
-//         "additional_info": "Member since 2020"
-//     },
-//     {
-//         "name": "Business Five",
-//         "address": "654 Innovation Dr, Timbuktu, Mali",
-//         "phone": "800-555-5555",
-//         "website": "https://businessfive.com",
-//         "image": "business5.jpg",
-//         "membership_level": 2,
-//         "additional_info": "Silver member since 2022"
-//     },
-//     {
-//         "name": "Business Six",
-//         "address": "987 Startup Ln, Timbuktu, Mali",
-//         "phone": "800-555-6666",
-//         "website": "https://businesssix.com",
-//         "image": "business6.jpg",
-//         "membership_level": 3,
-//         "additional_info": "Gold member since 2020"
-//     },
-//     {
-//         "name": "Business Seven",
-//         "address": "111 Corporation Way, Timbuktu, Mali",
-//         "phone": "800-555-7777",
-//         "website": "https://businessseven.com",
-//         "image": "business7.jpg",
-//         "membership_level": 1,
-//         "additional_info": "Member since 2021"
-//     }
-// ]
-
-
-
 [
-    {
-      "name": "Company One",
-      "address": "123 Main St, City, Country",
-      "phone": "123-456-7890",
-      "website": "https://companyone.com",
-      "image": "company1.png",
-      "membershipLevel": 1
-    },
-    {
-      "name": "Company Two",
-      "address": "456 Elm St, City, Country",
-      "phone": "987-654-3210",
-      "website": "https://companytwo.com",
-      "image": "company2.png",
-      "membershipLevel": 2
-    },
-    {
-      "name": "Company Three",
-      "address": "789 Oak St, City, Country",
-      "phone": "555-555-5555",
-      "website": "https://companythree.com",
-      "image": "company3.png",
-      "membershipLevel": 3
-    },
-    {
-      "name": "Company Four",
-      "address": "101 Pine St, City, Country",
-      "phone": "444-444-4444",
-      "website": "https://companyfour.com",
-      "image": "company4.png",
-      "membershipLevel": 1
-    },
-    {
-      "name": "Company Five",
-      "address": "202 Maple St, City, Country",
-      "phone": "333-333-3333",
-      "website": "https://companyfive.com",
-      "image": "company5.png",
-      "membershipLevel": 2
-    },
-    {
-      "name": "Company Six",
-      "address": "303 Birch St, City, Country",
-      "phone": "222-222-2222",
-      "website": "https://companysix.com",
-      "image": "company6.png",
-      "membershipLevel": 3
-    },
-    {
-      "name": "Company Seven",
-      "address": "404 Cedar St, City, Country",
-      "phone": "111-111-1111",
-      "website": "https://companyseven.com",
-      "image": "company7.png",
-      "membershipLevel": 1
-    }
-  ]
+  {
+    "name": "IDWEB",
+    "address": "2115 S Vista Avenue Boise ID 83705",
+    "phone": "(208) 342-9386",
+    "website": "https://idahowebsites.com/",
+    "image": "idweb.png",
+    "membershipLevel": 1
+  },
+  {
+    "name": "Surge Web Design",
+    "address": "4072 E Arch Drive Meridian ID 83646",
+    "phone": "(208) 631-0640",
+    "website": "https://www.surgewebdesign.com/",
+    "image": "surgewebdesign.png",
+    "membershipLevel": 2
+  },
+  {
+    "name": "Graphic Zen",
+    "address": "1788 E Summerplace Court Meridian ID 83646",
+    "phone": "(208) 631-4984",
+    "website": "https://graphiczzen.com/",
+    "image": "graphiczzen.png",
+    "membershipLevel": 3
+  },
+  {
+    "name": "Peppershock Media",
+    "address": "1215 3rd Street Nampa ID 83651",
+    "phone": "(208) 461-5070",
+    "website": "https://www.peppershock.com/",
+    "image": "peppershock.png",
+    "membershipLevel": 1
+  },
+  {
+    "name": "Flash Tech Services",
+    "address": "Star Idaho 83669",
+    "phone": "(208) 488-5810",
+    "website": "https://flashtechnicalservices.com/",
+    "image": "flashtechservices.png",
+    "membershipLevel": 2
+  },
+  {
+    "name": "Metro Express Car Wash",
+    "address": "1725 E Overland Road Meridian ID 83642",
+    "phone": "(208) 888-4073",
+    "website": "https://www.metroexpresscarwash.com/",
+    "image": "metroexpresscarwash.png",
+    "membershipLevel": 3
+  }
+]
