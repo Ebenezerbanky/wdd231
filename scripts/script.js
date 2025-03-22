@@ -15,3 +15,5 @@ function filterCourses(category) {
       }
     });
   }
+
+  

@@ -1,140 +1,105 @@
-@media screen and (max-width: 1200px) {
-    
-    main{
-        margin-top: 10%;
-        margin-bottom: 15%;
-    }
-    #directoryMain{
-        margin-top: 10%;
-        margin-bottom: 15%;
-    }
-    #joinMain{
-        margin-top: 7%;
-        margin-bottom: 15%;
-    }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    header{
-        grid-template-columns: 1fr 1fr 2fr 1fr;
-    }
+/* Header */
+header {
+    background-color: #e0e0e0;
+    padding: 15px 0;
+}
 
-    #hambIcon {
-        display: grid;
-        margin: auto;
-    }
-    #hambIcon img{
-        width: 150%;
-    }
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
 
-    #hambLinks{
-        flex-direction: column;
-        background-color: #303f9f;
-    }
-    #hambLinks a{
-        text-decoration: none;
-        text-align: center;
-        font-size: 1.2em;
-        padding: 20px;
-        font-weight: bold;
-        color: whitesmoke;
-        border: 1px solid whitesmoke;
-    }
-    #hambLinks a:hover{ background-color:  #001970;}
+.logo {
+    display: flex;
+    align-items: center;
+}
 
-    #hambIcon img:hover { cursor: pointer; }
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
 
-    #name{
-        text-align: center;
-        align-self: center;
-    }
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
 
-    #smedia {
-        align-self: center;
-        justify-self: center;
-        gap: 35px;
-        margin: 00px;
-    }
-    #smedia img{
-        
-        width: 150%;
-    }
-    #smedia img:hover{
-        border: none;
-        border-radius: 0px;
-        width: 150%;
-    }
+nav ul li {
+    display: inline;
+}
 
-    nav{ 
-        display: none;
-    }
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
-    #grid{ grid-template-columns: 3fr 2fr; }
-    
-    #hero{
-        grid-column: 1/3;
-        grid-row: 1/2;
-    }
+.dark-mode-toggle button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
 
-    #Fdescription { text-align: center; font-size: 1.1em;}
+/* Hero Section */
+.hero {
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+}
 
-    
-    #join{
-        grid-column: 1/3;
-        grid-row: 4/5;
-    }
-    
-    #news{
-        grid-column: 1/3;
-        grid-row: 2/3;
-    }
-    
-    #spotlight{
-        display: flex;
-        justify-content: space-around;
-        grid-column: 1/3;
-        grid-row: 3/4;
-    }
-    .spotlights{ width: 100%;}
-    #spotlight3{ display: none;}
+.hero img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
 
-    #formGrid{
-        display: block;
-        margin-right: 30%;
-    }
+.keynote-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #444;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
 
-    label{
-        font-size: 0.8em;
-    }
+/* Footer */
+footer {
+    background-color: #e0e0e0;
+    padding: 20px 0;
+    text-align: center;
+}
 
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
 
-    #listview table{
-        font-size: 0.8em;
-    }
-    
-    .cards{
-        grid-template-columns: 1fr 1fr;
-    }
+.contact-info,
+.project-info {
+    text-align: left;
+}
 
-    #contactGrid{
-        display: block;
-    }
-
-    #directorPortraits{
-        margin-bottom: 15%;
-    }
-    #directorPortraits img{
-        width: 75%;
-        border: 8px solid #001970;
-    }
-
-    #meetDirectors{
-        margin-top: 10%;
-    }
-    
-    footer{ font-size: 0.99em; }
-    footer .logo { 
-        width: 60%; 
-        padding: 0px;
-        margin-top: 3%;
-    }
-
+.social-media img {
+    width: 30px;
+    margin: 0 10px;
 }
