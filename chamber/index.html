@@ -1,158 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Welcome to the Ebenezer chamber of commerce. Join today and connect with businesses in our community. Stay updated with local events and weather.">
-  <meta name="author" content="Your Name">
-  <link rel="icon" href="path_to_your_favicon.ico" type="image/x-icon">
-  <meta property="og:title" content="Ebenezer chamber of commerce - Join the Community">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="path_to_image.jpg">
-  <meta property="og:url" content="https://www.yourchamberwebsite.com">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eben-Dev1 Chamber of Commerce</title>
 
-  <title>Ebenezer chamber of commerce</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/styles.css">
-  
+    <meta name="description" content="Chamber of Commerce Project from Bankole Ebenezer in WDD 231: Web Frontend Development at BYUI" />
+<!-- 
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/base.css"> -->
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/bas.css">
+    <link rel="stylesheet" href="styles/normalizee.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&family=Stalinist+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  <!-- Header -->
-  <header>
-    <div class="header-content">
-      <div class="logo-container">
-        <div class="logo">
-            <img src="images/167693270.jpeg" alt="">
-          <i class="fas fa-image"></i>
+    <header>
+
+            <a id="hambIcon" onclick="hambButton()">
+              <img src="images/hamburguer.png" alt="hamburguer icon">
+            </a>
+          
+        <img class="logo" src="images/logo.webp" alt="Eben-Dev1 Chamber  logo">
+        <h1 id="name">Eben-Dev1 Chamber </h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>     
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div id="smedia">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook logo"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn logo"></a>
         </div>
-        <div class="logo-text">
-          <h1>Ebenezer </h1>
-          <p>Chamber of Commerce</p>
-        </div>
-      </div>
-      <nav>
-        <a href="./">Home</a>
-        <a href="#">Directory</a>
-        <a href="#">Join</a>
-        <a href="#">Discover</a>
-      </nav>
-      <button class="theme-toggle">
-        <i class="fas fa-adjust"></i>
-      </button>
+
+        <div class="today"></div>
+    </header>
+
+    <div id="hambLinks">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>     
+        <a href="contact.html">Contact</a>
     </div>
-  </header>
 
-  <!-- Main Content -->
-  <main>
-
-    <!-- Hero Section -->
-    <section class="hero">
-      <span>Scalable, responsive hero image</span>
-      <button class="ticket-button">Keynote Tickets</button>
-      <button class="join-button">Join the Chamber</button>
-    </section>
-
-    <!-- Current Events Section -->
-    <section class="events">
-      <h2>Current Events</h2>
-      <div class="card-container">
-        <div class="card">
-          <h3>Event 1</h3>
-          <p>Details about event 1</p>
-        </div>
-        <div class="card">
-          <h3>Event 2</h3>
-          <p>Details about event 2</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Weather Section -->
-    <section class="weather">
-      <h2>Current Weather</h2>
-      <div class="grid-container">
-        <div class="weather-card">
-          <i class="fas fa-cloud-sun"></i>
-          <h3>75°F</h3>
-          <p>Party Cloudy</p>
-        </div>
-        <div class="weather-details">
-          <p>High: 85°</p>
-          <p>Low: 52°</p>
-          <p>Humidity: 34%</p>
-          <p>Sunrise: 7:30am</p>
-          <p>Sunset: 9:59pm</p>
-        </div>
-        <div class="forecast">
-          <h3>Forecast</h3>
-          <p>Today: 90°F</p>
-          <p>Tomorrow: 89°F</p>
-          <p>Wednesday: 80°F</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Business Spotlight Section -->
-    <section class="businesses">
-      <h2>Business Spotlights</h2>
-      <div class="business">
-        <div class="business-logo"></div>
-        <h3>Business 1</h3>
-        <p>Tagline for business 1</p>
-      </div>
-      <div class="business">
-        <div class="business-logo"></div>
-        <h3>Business 2</h3>
-        <p>Tagline for business 2</p>
-      </div>
-      <div class="business">
-        <div class="business-logo"></div>
-        <h3>Business 3</h3>
-        <p>Tagline for business 3</p>
-      </div>
-    </section>
+    <main>
     
-  </main>
+        <div id="grid">
 
+            <div id="event">
+                <h2 class="heading">Event</h2>
+                <p id="todaysevent"><b>Small Business Kickout</b><br>
+                    Our first event of the month is for you business administrators! Come gather with us this next week and share your ideas.
+                    We will be hearing from specials hosts of companies such as Coca Coca, Dr Chilli, and Mt Stew. Refreshments will be served.
+                </div>
 
-    <!-- Weather Section -->
-    <section class="weather-section">
-        <h2>Current Weather</h2>
-        <div id="weather-details">
-            <p><strong>Temperature:</strong> <span id="current-temperature">Loading...</span></p>
-            <p><strong>Description:</strong> <span id="weather-description">Loading...</span></p>
+                <div id="hero">     
+                    <picture class="hero-imgbox">
+                        <source  media="(min-width: 800px) and (max-width: 1199px)" srcset="images/medium.jpg" />
+                        <source  media="(min-width: 1200px)" srcset="images/large.jpg" />
+                        <img  class="hero-img" src="images/medium.jpg" alt="Hero image" />
+                    </picture>          
+                    <h2 id="hero-msg">A chamber of commerce made for NIgeria citizens</h2>
+                    <div id='herobutton' class='joinbutton'>
+                            <a href="./join.html">Get Started</a>
+                    </div>
+                </div>
+
+            <div id="spotlight">
+                    <div class="spotlights">
+                    <h3 class="heading">Sell Something</h3>
+                    <img class="icon" src="images/cash.png" alt="money icon">
+                    <p>
+                        This chamber of commerce will grant you the space to put your items on sale without worring about
+                        giving sensitive information. We only ask you the basics so you can get things done.
+                        
+                    </p>
+                    </div>
+                    <div class="spotlights">
+                        <h3 class="heading">Products or Services Near You</h3>
+                        <img class="icon" src="images/buy.png" alt="shopping icon">
+                        <p>
+                            Search for services from fellow students or NIgeria citizens near you with a quick search.
+                        </p>
+                    </div>
+                    <div id="spotlight3" class="spotlights">
+                        <h3 class="heading">Get Help For Your Intepreneurship</h3>
+                        <img class="icon" src="images/help.png" alt="get help icon">
+                        <p>
+                            Safely share your ideas. You can choose which help you are seeking, being it a fund raising, creating a team, or simply asking for ideas and opinions. You choose, 
+                            we share!
+                        </p>
+                    </div>
+            </div>
+
+            <div id="weather">
+                    <h3 class="heading">Weather</h3>              
+                <div>
+                    <img id="weathericon" src="images/cloud.png" alt="Weather Icon">
+                    <h2><span id="temperature"></span> &deg; F</h2> 
+                </div>
+                <h2 id="weatherdesc"></h2>
+                <hr>
+                <p>Wind Speed: <span id="windspeed"></span> mph</p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+            </div>
+
+            <div id="join">
+                <div class="joinbutton">
+                    <a href="./join.html">Join Now</a>
+                </div>
+                <p>Start today to get the most out of our chamber of commerce. As a member you will be able to enjoy all
+                that we have to offer.</p>
+            </div>
+
+            <div id="news">
+                <h3 class="heading">News Release</h3>
+                <p>Now we are expanding our services to Idaho Falls! Because of that, you may see a little bit of unstability in our site for
+                    the next few weeks. We apologize for any incoveniences this may cause, and we guarantee that we are working hard to get
+                    the site back to normal as soon as possible.
+                </p>
+            </div>
         </div>
-        <h3>3-Day Forecast</h3>
-        <div id="forecast-container">
-            <!-- Forecast Data will be inserted here -->
-        </div>
-    </section>
 
-    <!-- Spotlight Section -->
-    <section class="spotlight-section">
-        <h2>Member Spotlights</h2>
-        <div id="spotlights-container">
-            <!-- Spotlight Cards will be inserted here -->
-        </div>
-    </section>
+    <p>Weather updates provided by <a href="https://home.openweathermap.org">Open Weather Map</a></p>
+    <p>Icons provided by <a href="https://icons8.com">Icons 8</a></p>
+    </main>
+    
+<footer>
+    <img class="logo" src="images/logo.webp" alt="Eben-Dev1 Chamber  logo">
+    <p id="footername"><b>Eben-Dev1 Chamber  of commerce</b><br> 238 Dark Avenue, NIgeria ID</p>
+    <p>contactus@blackchamber.org<br> 080 123 456789<br> <a href="https://www.google.com/maps/@-22.9519289,-43.2104891,2a,75y,75.73h,79.47t/data=!3m7!1e1!3m5!1sZ25DaoC5z-C_5FetgvJZfg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DZ25DaoC5z-C_5FetgvJZfg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D46.05953%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656" target="_blank">📍Location Map</a></p>
+    <p id="copyright"> &copy; <span id="year"></span> | Eben-Dev1 Chamber  | Bankole Ebenezer | WDD 231 | <span id="time"> Last Modified: <span id="date"></span></span></p>
+</footer>
 
-    <script src="scripts/spotlights.js"></script>
-    <script src="scripts/weather.js"></script>
-
-  <!-- Footer -->
-  <footer>
-    <p>Ebenezer chamber of commerce</p>
-    <p>10 Rue De La Paix</p>
-    <p>Ebenezer , Mali 999</p>
-    <p>info@Ebenezer cc.org</p>
-    <p>(223) 555-2300</p>
-    <div class="social-links">
-      <a href="#"><i class="fab fa-youtube"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-    </div>
-  </footer>
+<script src="js/index.js"></script>
+<script src="js/event.js"></script>
+<script src="js/windchill.js"></script>
 
 </body>
 </html>
