@@ -1,0 +1,200 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pricing Plans</title> -->
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my personal project</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">Transcribe.<span>ai</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="">Contact</a></li>
+                    <li class="go-premium-cta"><a href="#">Go Premium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p.subtitle {
+      color: #666;
+      margin-bottom: 40px;
+    }
+
+    .pricing-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .price span {
+      font-size: 1rem;
+      color: #888;
+    }
+
+    ul.features {
+      list-style: none;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    ul.features li {
+      margin: 10px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    ul.features li::before {
+      content: '✔';
+      color: green;
+      position: absolute;
+      left: 0;
+    }
+
+    .card button {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .card button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Highlighted plan */
+    .card.pro {
+      border: 3px solid #007BFF;
+    }
+
+    /* Responsive */
+    @media screen and (max-width: 768px) {
+      .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Choose Your Plan</h1>
+    <p class="subtitle">Flexible pricing options that fit your needs.</p>
+
+    <div class="pricing-cards">
+
+      <div class="card">
+        <h2>Basic</h2>
+        <p class="price">$9<span>/mo</span></p>
+        <ul class="features">
+          <li>1 User</li>
+          <li>5 Projects</li>
+          <li>Email Support</li>
+          <li>No Analytics</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+
+      <div class="card pro">
+        <h2>Pro</h2>
+        <p class="price">$29<span>/mo</span></p>
+        <ul class="features">
+          <li>Up to 5 Users</li>
+          <li>50 Projects</li>
+          <li>Priority Support</li>
+          <li>Basic Analytics</li>
+        </ul>
+        <button>Start Free Trial</button>
+      </div>
+
+      <div class="card">
+        <h2>Premium</h2>
+        <p class="price">$59<span>/mo</span></p>
+        <ul class="features">
+          <li>Unlimited Users</li>
+          <li>Unlimited Projects</li>
+          <li>24/7 Support</li>
+          <li>Advanced Analytics</li>
+        </ul>
+        <button>Go Premium</button>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

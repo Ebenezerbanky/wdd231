@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Alice Johnson",
+      "role": "Project Manager",
+      "location": "New York",
+      "photo": "https://randomuser.me/api/portraits/women/1.jpg",
+      "bio": "Alice has 10 years of experience in tech leadership."
+    },
+    {
+      "name": "Bob Smith",
+      "role": "Frontend Developer",
+      "location": "San Francisco",
+      "photo": "https://randomuser.me/api/portraits/men/2.jpg",
+      "bio": "Bob is passionate about responsive design and animations."
+    },
+    
+    {
+        "name": "Alice Johnson",
+        "role": "Project Manager",
+        "location": "New York",
+        "photo": "https://randomuser.me/api/portraits/women/1.jpg",
+        "bio": "Alice has 10 years of experience in tech leadership."
+      },
+      {
+        "name": "Bob Smith",
+        "role": "Frontend Developer",
+        "location": "San Francisco",
+        "photo": "https://randomuser.me/api/portraits/men/2.jpg",
+        "bio": "Bob is passionate about responsive design and animations."
+      },
+    
+    {
+      "name": "Alice Johnson",
+      "role": "Project Manager",
+      "location": "New York",
+      "photo": "https://randomuser.me/api/portraits/women/1.jpg",
+      "bio": "Alice has 10 years of experience in tech leadership."
+    },
+    {
+      "name": "Bob Smith",
+      "role": "Frontend Developer",
+      "location": "San Francisco",
+      "photo": "https://randomuser.me/api/portraits/men/2.jpg",
+      "bio": "Bob is passionate about responsive design and animations."
+    }
+  ]
+
+  

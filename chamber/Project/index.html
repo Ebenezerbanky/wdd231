@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Bankole Ebenezer">
+    <meta name="description" content="my personal project Bankole Ebenezer in WDD 231: Web Frontend Development at BYUI" />
+    <title>my personal project</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Open Graph Meta Tags-->
+    <meta property="og:title" content="Eben-Dev1 Chamber of Commerce">
+    <meta property="og:description" content="The Eben-Dev1 Chamber of Commerce is the premier business organization in Eben-Dev1, Mali.">
+    <meta property="og:image" content="https://www.eben-dev1cc.org/images/eben-dev1cc-logo.png">
+    <meta property="og:url" content="https://www.eben-dev1cc.org">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">Transcribe.<span>ai</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="#">Contact</a></li>
+                    <li class="go-premium-cta"><a href="#">Go Premium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">It's Nitty &amp; Gritty</p>
+                <h1>A Task App That Doesn't Stink</h1>
+
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta">Try for free</a>
+                    <a href="#" class="watch-video-cta">
+                        <img src="images/watch.svg" alt="Watch a video">Watch a video
+                    </a>
+                </div>
+            </div>
+
+            <img src="images/im1.webp" class="hero-img" alt="Illustration">
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                <li>Authomatic tonic solfa transcription</li>
+                <li>Sheet music scanning & recognition</li>
+                <li>Key & time signature detection</li>
+                <li>MIDI/audio export</li>
+                <li>Real time editing & correction</li>
+                <li>Batch processing for choir scores</li>
+            </ul>
+
+            <img src="images/im3.webp" alt="Man holding phone">
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/banker.webp" alt="Person">
+
+                    <blockquote>"Transcribe.ai has completely transformed the way I engage with music! As a passionate musician, I often struggle with transcribing complex pieces. This software makes it so easy and intuitive. The features are user-friendly, and I love how I can customize my experience. Plus, the support team is always ready to help with any questions I have. I can't recommend Transcribe.ai enough to fellow music enthusiasts!"</blockquote>
+                    <cite>- Mike Band</cite>
+                </li>
+                <li>
+                    <img src="images/im2.webp" alt="Person">
+
+                    <blockquote>"As an aspiring composer, finding the right tools can be a challenge. Luckily, I discovered Transcribe.ai! The software is incredibly efficient and allows me to focus on my creativity rather than getting bogged down in the details. The ability to slow down music and isolate sections has been invaluable for my practice. I can't imagine my music journey without it!"</blockquote>
+                    <cite>- Mr Bolu</cite>
+                </li>
+                <li>
+                    <img src="images/banker.webp" alt="Person"> 
+
+                    <blockquote>"Transcribe.ai is a game-changer for anyone serious about music. The accuracy of the transcription is impressive, and it saves me countless hours when trying to learn new songs. The user interface is sleek and easy to navigate, making it perfect for both beginners and seasoned musicians alike. I highly recommend it to all my friends!"</blockquote>
+                    <cite>- Williams</cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contact</h2>
+
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                    <input type="submit" class="send-message-cta" value="Send message">
+                </form>
+            </div>
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63338.277987026406!2d3.318776781357573!3d7.16727537837909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a4bf6995dfc7f%3A0x6734fcf62892478d!2sAbeokuta%2C%20Ogun%20State!5e0!3m2!1sen!2sng!4v1744500782579!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
+
+</body>
+</html>
