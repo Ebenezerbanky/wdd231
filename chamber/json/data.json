@@ -9,7 +9,7 @@
         "email": "info@econassociates.com",
         "phoneNumber": "+234 703 344 2370",
         "websiteURL": "https://www.econassociates.com",
-        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/economicAscs.jpg",
+        "logoURL" : "https://ebenezerbanky.github.io/wdd231/chamber/images/jsonLogos/economicAscs.jpg",
         "description": "Economics Associates provides analysis of economic facts to key decision makers"
       },
       {
@@ -20,7 +20,7 @@
         "email": "firstcontact@firstbanknigeria.com",
         "phoneNumber": "0700 34778 2668228-",
         "websiteURL": "http://www.firstbanknigeria.com",
-        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/Fbn.jpg",
+        "logoURL" : "https://ebenezerbanky.github.io/wdd231/chamber/images/jsonLogos/Fbn.jpg",
         "description": "First Bank Plc is the foremost financial institution offering general banking and money transfer services"
       },
       {
@@ -31,7 +31,7 @@
         "email": "info@abcnig.com",
         "phoneNumber": "+234 805 522 9663",
         "websiteURL": "https://www.abcnig.com",
-        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/americanbuscouncil.jpg",
+        "logoURL" : "https://ebenezerbanky.github.io/wdd231/chamber/images/jsonLogos/americanbuscouncil.jpg",
         "description": "American Business Council doing business in Nigeria for promoting Nigeria-US economic partnership"
       },
       {
@@ -42,7 +42,7 @@
         "email": "info@flexipgroup.com",
         "phoneNumber": "+234 817 200 4171",
         "websiteURL": "https://www.flexipgroup.com",
-        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/flexip.jpg",
+        "logoURL" : "https://ebenezerbanky.github.io/wdd231/chamber/images/jsonLogos/flexip.jpg",
         "description": "FlexiP Group offers diverse services in information technology,real estate,civil engineering,power,oil and gas & provide organisations with flexible business solutions that will help them accelerate their businesses"
       },
       {
@@ -53,7 +53,7 @@
         "email": "",
         "phoneNumber": "+234 01 462 6300",
         "websiteURL": "https://www.ibm.com/ng-en",
-        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/ibmic.jpg",
+        "logoURL" : "https://ebenezerbanky.github.io/wdd231/chamber/images/jsonLogos/ibmic.jpg",
         "description": "IBM Innovation Centre is a technology partners that offers innovative services such as brand development,business support,and other services that will help your business become cognitive enterprise"
       },
       {
@@ -64,7 +64,7 @@
         "email": "info@mbcgroup.com.ng",
         "phoneNumber": "+234 802 225 0101",
         "websiteURL": "https://www.mbcgroups.com.ng/",
-        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/mbcn.jpg",
+        "logoURL" : "https://ebenezerbanky.github.io/wdd231/chamber/images/jsonLogos/mbcn.jpg",
         "description": "MBC Securities provides financial services for securities trading"
       },
       {
@@ -75,7 +75,7 @@
         "email": "info@nextzon.com",
         "phoneNumber": "+234 812 722 7044",
         "websiteURL": "https://nextzon.com",
-        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/nexton.jpg",
+        "logoURL" : "https://ebenezerbanky.github.io/wdd231/chamber/images/jsonLogos/nexton.jpg",
         "description": "Nextzon Business Services is a collective mission of building and transforming business enterprises for phenomenal success operating"
       },
       {
@@ -84,9 +84,9 @@
         "membership": "Bronze",
         "address": "205 Abiola Segun St,Off Muri Okunola Street,Victoria Island,Lagos,Nigeria",
         "email": "info@stroilng.com",
-        "phoneNumber": "+234 90 7000 2300",
+        "phoneNumber": "+234 90 7000 2310",
         "websiteURL": "https://www.stroilng.com",
-        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/seepco.jpg",
+        "logoURL" : "https://ebenezerbanky.github.io/wdd231/chamber/images/jsonLogos/seepco.jpg",
         "description": "Steering Oil Exploration & Energy Production Company Ltd(SEEPCO) is an incorporated company that specializes on exploration and production of Okwuibome Blend of crude oil that is recognized by the Nigerian National Petroleum Corporation(NNPC)"
       },
       {
@@ -97,7 +97,7 @@
         "email": "contact@tyresonline.ng",
         "phoneNumber": "+234 1 710 1239",
         "websiteURL": "https://www.alibert-group.com/",
-        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/alibert.jpg",
+        "logoURL" : "https://ebenezerbanky.github.io/wdd231/chamber/images/jsonLogos/alibert.jpg",
         "description": "Alibert furniture is known to be one of the largest family-owned furniture manufacturers in West Africa. Alibert furniture has two of its major showrooms in Victoria Island and Lekki Peninsula."
       }
     ]

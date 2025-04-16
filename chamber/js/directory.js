@@ -1,4 +1,4 @@
-const directoryUrl = "https://giyip.github.io/wdd230/chamber/json/data.json";
+const directoryUrl = "https://ebenezerbanky.github.io/wdd230/chamber/json/data.json";
 const directoryCont = document.querySelector(".directory-container");
 const listBtn = document.querySelector(".list-view-icon");
 const gridBtn = document.querySelector(".grid-view-icon");
