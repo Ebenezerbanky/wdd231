@@ -1,0 +1,76 @@
+{
+  "members": [
+    {
+      "name": "Sunset Grill",
+      "address": "456 Oak Avenue",
+      "website": "www.sunsetgrill.com",
+      "phone": "555-1234-5678",
+      "membership": "Platinum",
+      "logo": "member-1.webp"
+    },
+    {
+      "name": "Pizza Palace",
+      "address": "789 Pine Street",
+      "website": "www.pizzapalace.com",
+      "phone": "555-9876-5432",
+      "membership": "Gold",
+      "logo": "member-2.webp"
+    },
+    {
+      "name": "Sweet Treats Bakery",
+      "address": "321 Maple Lane",
+      "website": "www.sweettreats.com",
+      "phone": "555-5678-4321",
+      "membership": "Silver",
+      "logo": "member-3.webp"
+    },
+    {
+      "name": "Fresh Market",
+      "address": "654 Elm Street",
+      "website": "www.freshmarket.com",
+      "phone": "555-4321-8765",
+      "membership": "Bronze",
+      "logo": "member-4.webp"
+    },
+    {
+      "name": "Nature's Bounty",
+      "address": "987 Birch Avenue",
+      "website": "www.naturesbounty.com",
+      "phone": "555-8765-4321",
+      "membership": "NPO",
+      "logo": "member-5.webp"
+    },
+    {
+      "name": "Adventure Outfitters",
+      "address": "543 Redwood Lane",
+      "website": "www.adventureoutfitters.com",
+      "phone": "555-1234-5678",
+      "membership": "Silver",
+      "logo": "member-6.webp"
+    },
+    {
+      "name": "Green Thumb Nursery",
+      "address": "876 Cedar Street",
+      "website": "www.greenthumbnursery.com",
+      "phone": "555-5678-4321",
+      "membership": "Gold",
+      "logo": "member-7.webp"
+    },
+    {
+      "name": "Urban Escape",
+      "address": "234 Pine Lane",
+      "website": "www.urbanescape.com",
+      "phone": "555-4321-8765",
+      "membership": "Bronze",
+      "logo": "member-8.webp"
+    },
+    {
+      "name": "Harmony Haven",
+      "address": "876 Maple Street",
+      "website": "www.harmonyhaven.com",
+      "phone": "555-9876-5432",
+      "membership": "Platinum",
+      "logo": "member-9.webp"
+    }
+  ]
+}

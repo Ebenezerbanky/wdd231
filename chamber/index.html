@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Laura Ramirez">
+        <meta name="description"
+            content="Home page for the Rexburg Chamber of Commerce which includes a summary of information regarding the chamber and its members">
+        <meta name="title" content="Rexburg Chamber of Commerce">
+        <meta property="og:title" content="Rexburg Chamber of Commerce">
+        <meta property="og:description"
+            content="Discover page for the Rexburg Chamber of Commerce which includes a summary of information regarding the chamber and its members">
+        <meta property="og:image" content="images/rexburg-city.sgv">
+        <meta property="og:url" content="https://lauraramirez1942.github.io/wdd230/chamber">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Rexburg Chamber of Commerce">
+        <meta property="og:locale" content="en_US">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+
+        <link rel="icon" href="images/rexburg-city.svg">
+
+        <title>Rexburg Chamber of Commerce | Discover</title>
+    </head>
+    <body>
+        <section id="banner">
+            <h3 id="meeting-message">Come and join us this wednesday at 7PM for our weekly meet and greet.<span
+                id="close-banner">❌</span></h3>
+        </section>
+        <nav>
+            <img id="nav-logo" src="images/rexburg-city.webp" alt="Clear Water Chamber of Commerce Logo">
+            <div id="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                    <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
+                </svg>
+            </div>
+            <div id="close-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                    <path
+                        d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
+                </svg>
+            </div>
+            <ul id="menu-items">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="discover.html">Discover</a></li>
+                <li class="menu-item"><a href="directory.html">Directory</a></li>
+                <li class="menu-item"><a href="join.html">Join</a></li>
+            </ul>
+            <!-- Weather Place holder that will be automated to get are weather by Javascript -->
+            <div id="weather">
+            </div>
+        </nav>
+        <header>
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Clear Water Chamber of Commerce</h1>
+                    <p>
+                        The Clear Water Chamber of Commerce is a non-profit organization that
+                        promotes the business community of Clear Water, Idaho. We are a
+                        community of business owners and professionals who are dedicated to
+                        the growth and success of our community.
+                    </p>
+                    <a href="#">Join Now</a>
+                </div>
+            </section>
+        </header>
+        <main>
+            <!-- Member Showcase Section -->
+            <div id="members">
+                <h2 id="member-heading">Members</h2>
+                <section class="member">
+                </section>
+                <section class="member">
+                </section>
+                <section class="member">
+                </section>
+                <section class="member">
+                </section>
+            </div>
+            <!-- Events -->
+            <section class="events">
+                <!-- To be filled in by a JSON Document by Javascript code when called from server -->
+                <!-- Below is a sample of the layout -->
+                <div class="event-content">
+                    <h2>Annual COC Cookout</h2>
+                    <p class="event-description">
+                        Join us for a whole family filled day of fun. With Members having displays and specials for the day. There will be
+                        food, drinks, and games for the kids. Come and join us for a day of fun.
+                        15 June 2023 
+                        8am - 8pm
+                        23 Waverly Place 
+                    </p>
+                    <p class="event-details">
+                        8am-8pm 15 June 2023 |
+                        Waverley Park
+                    </p>
+                    <a class="event-button" href="discover.html">Learn More</a>
+                </div>
+            </section>
+            <!-- Chamber of Commerce Team -->
+            <div class="team">
+                <section class="team-member" id="team-member-1">
+                    <img src="images/profile-1.webp" alt="Jacky Thomson">
+                    <h2>Jacky Thomson</h2>
+                    <p>Director</p>
+                </section>
+                <section class="team-member" id="team-member-2">
+                    <img src="images/profile-2.webp" alt="Jason Xhosa">
+                    <h2>Jason Xhosa</h2>
+                    <p>Finances</p>
+                </section>
+                <section class="team-member" id="team-member-3">
+                    <img src="images/profile-3.webp" alt="Jason Major">
+                    <h2>Johnny Major</h2>
+                    <p>Company Advisor</p>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>123 Main Street Rexburg, Idaho 12345</p>
+            <p>Phone: 555-555-5555</p>
+            <p>
+                Email:
+                <a href="mailto:hello@rexburgchamber.com"> hello@rexburgchamber.com</a>
+            </p>
+            <p id="footer-end">
+                &copy; <span id="copyYear"></span> Rexburg Chamber of Commerce |
+                Laura Ramirez | WDD 230 | <span id="lastModified"></span>
+            </p>
+        </footer>
+
+        <script src="scripts/dates.js" defer></script>
+        <script src="scripts/mobileMenu.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
+        <script src="scripts/banner.js" defer></script>
+        <script src="scripts/showcase.js" defer></script>      
+    </body>
+</html>

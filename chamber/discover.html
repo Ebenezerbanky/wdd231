@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Bankole Ebenezer">
+        <meta name="description"
+            content="Home page for the Nija Chamber of Commerce which includes a summary of information regarding the chamber and its members">
+        <meta name="title" content="Nija Chamber of Commerce">
+        <meta property="og:title" content="Nija Chamber of Commerce">
+        <meta property="og:description"
+            content="Discover page for the Nija Chamber of Commerce which includes a summary of information regarding the chamber and its members">
+        <meta property="og:image" content="images/rexburg-city.sgv">
+        <meta property="og:url" content="https://lauraramirez1942.github.io/wdd230/chamber">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Nija Chamber of Commerce">
+        <meta property="og:locale" content="en_US">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+
+        <link rel="icon" href="images/favicon.jpg">
+
+        <title>Nija Chamber of Commerce | Discover</title>
+    </head>
+    <body>
+        <!-- <section id="banner">
+            <h3 id="meeting-message">Come and join us this wednesday at 7PM for our weekly meet and greet.<span
+                id="close-banner">❌</span></h3>
+        </section> -->
+        <nav>
+            <img id="nav-logo" src="images/favicon.jpg" alt="Clear Water Chamber of Commerce Logo">
+            <div id="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                    <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
+                </svg>
+            </div>
+            <div id="close-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                    <path
+                        d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
+                </svg>
+            </div>
+            <ul id="menu-items">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="discover.html">Discover</a></li>
+                <li class="menu-item"><a href="directory.html">Directory</a></li>
+                <li class="menu-item"><a href="join.html">Join</a></li>
+            </ul>
+            <!-- Weather Place holder that will be automated to get are weather by Javascript -->
+            <div id="weather">
+            </div>
+        </nav>
+        <header>
+            <section id="hero-1" class="hero">
+                <div class="hero-content">
+                    <h1>Nija Chamber of Commerce</h1>
+                    <p>
+                        The Nija Chamber of Commerce is a dynamic and influential organization dedicated to fostering economic vitality and community growth in Nija, Idaho 
+                    </p>
+                    <!-- <a href="#">Join Now</a> -->
+                </div>
+            </section>
+        </header>
+        
+        <main id="sidebar-grid">
+            <section id="sidebar">
+                <h2>Stats</h2>
+                <p>Population : 11,947</p>
+                <p>Median Income : $45,000</p>
+                <p>Median Age : 35</p>
+                <p>Median Home Price : $250,000</p>
+                <h2>Last Visit Info</h2>
+                <p>You last viewed this page on :</p>
+                <p id="last-date"></p>
+                <p>Days Between Visits :</p>
+                <p id="days-between"></p>
+            </section>
+            
+            <section id="detailed-events">
+                <h2>Local Interests</h2>
+                <div class="local-interest">
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="images/mountains.webp">
+                        <source media="(min-width: 400px)" srcset="images/mountains.webp">
+                        <img src="images/mountains.webp" alt=" Rocky Mountain Range" loading="lazy">
+                    </picture>
+                    <h3>Mountains</h3>
+                </div>
+                <div class="local-interest">
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="images/restaurant.webp">
+                        <source media="(min-width: 400px)" srcset="images/restaurant.webp">
+                        <img src="images/restaurant.webp" alt="Restaurants" loading="lazy">
+                    </picture>
+                    <h3>Restaurants</h3>
+                </div>
+                <div class="local-interest">
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="images/temple.webp">
+                        <source media="(min-width: 400px)" srcset="images/temple.webp">
+                        <img src="images/temple.webp" alt="Temple" loading="lazy">
+                    </picture>
+                    <h3>Temple</h3>
+                </div>
+                <div class="local-interest">
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="images/art.webp">
+                        <source media="(min-width: 400px)" srcset="images/art.webp">
+                        <img src="images/art.webp" alt="Art" loading="lazy">
+                    </picture>
+                    <h3>Art</h3>
+                </div>
+                <div class="local-interest">
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="images/hiking.webp">
+                        <source media="(min-width: 400px)" srcset="images/hiking.webp">
+                        <img src="images/camping.webp" alt="Hiking" loading="lazy">
+                    </picture>
+                    <h3>Hiking</h3>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>123 Main Street Nija, Abokuta 12345</p>
+            <p>Phone: 555-555-5555</p>
+            <p>
+                Email:
+                <a href="mailto:hello@chamber.com"> hello@chamber.com</a>
+            </p>
+            <p id="footer-end">
+                &copy; <span id="copyYear"></span> Nija Chamber of Commerce |
+                Ebenezer Bankole | WDD 231 | <span id="lastModified"></span>
+            </p>
+        </footer>
+
+        <script src="scripts/dates.js" defer></script>
+        <script src="scripts/mobileMenu.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
+        <script src="scripts/banner.js" defer></script>
+        <script src="scripts/showcase.js" defer></script>    
+    </body>
+</html>
