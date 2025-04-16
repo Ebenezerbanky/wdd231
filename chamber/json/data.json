@@ -1,0 +1,104 @@
+{
+    "directory": [
+  
+      {
+        "ID": "IOV/002",
+        "name" :"Economic Associates",
+        "membership": "Bronze",
+        "address": "16,Amodu Ojikutu Street,Victoria Island,Lagos State,Nigeria",
+        "email": "info@econassociates.com",
+        "phoneNumber": "+234 703 344 2370",
+        "websiteURL": "https://www.econassociates.com",
+        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/economicAscs.jpg",
+        "description": "Economics Associates provides analysis of economic facts to key decision makers"
+      },
+      {
+        "ID": "IOV/003",
+        "name" :"First Bank Plc",
+        "membership": "Gold",
+        "address": "Samuel Asabia House 35,Marina,Lagos Island Nigeria",
+        "email": "firstcontact@firstbanknigeria.com",
+        "phoneNumber": "0700 34778 2668228-",
+        "websiteURL": "http://www.firstbanknigeria.com",
+        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/Fbn.jpg",
+        "description": "First Bank Plc is the foremost financial institution offering general banking and money transfer services"
+      },
+      {
+        "ID": "IOV/001",
+        "name" :"American Business Council",
+        "membership": "Silver",
+        "address": "C&C Towers,Plot 1684,Sanusi Fafunwa Street,Victoria Island,Lagos State Nigeria",
+        "email": "info@abcnig.com",
+        "phoneNumber": "+234 805 522 9663",
+        "websiteURL": "https://www.abcnig.com",
+        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/americanbuscouncil.jpg",
+        "description": "American Business Council doing business in Nigeria for promoting Nigeria-US economic partnership"
+      },
+      {
+        "ID": "IOV/004",
+        "name" :"FlexiP Group",
+        "membership": "Silver",
+        "address": "28 The Providence Street,Lekki Phase 1,Lagos State,Nigeria",
+        "email": "info@flexipgroup.com",
+        "phoneNumber": "+234 817 200 4171",
+        "websiteURL": "https://www.flexipgroup.com",
+        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/flexip.jpg",
+        "description": "FlexiP Group offers diverse services in information technology,real estate,civil engineering,power,oil and gas & provide organisations with flexible business solutions that will help them accelerate their businesses"
+      },
+      {
+        "ID": "IOV/005",
+        "name" :"IBM Innovation Centre",
+        "membership": "Bronze",
+        "address": "5th Floor,Churchgate Tower 2,Plot PC 31,Churchgate Street(former Afribak Street),Victoria Island,Lagos Nigeria",
+        "email": "",
+        "phoneNumber": "+234 01 462 6300",
+        "websiteURL": "https://www.ibm.com/ng-en",
+        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/ibmic.jpg",
+        "description": "IBM Innovation Centre is a technology partners that offers innovative services such as brand development,business support,and other services that will help your business become cognitive enterprise"
+      },
+      {
+        "ID": "IOV/006",
+        "name" :"MBC Securities Limited",
+        "membership": "Gold",
+        "address": "11th Floor,St.Nicholas House 5/6,Catholic Mission Street,Marina Lagos Island,Lagos State Nigeria",
+        "email": "info@mbcgroup.com.ng",
+        "phoneNumber": "+234 802 225 0101",
+        "websiteURL": "https://www.mbcgroups.com.ng/",
+        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/mbcn.jpg",
+        "description": "MBC Securities provides financial services for securities trading"
+      },
+      {
+        "ID": "IOV/007",
+        "name" :"Nextzon Business Services Limited",
+        "membership": "NP",
+        "address": "1 Rachael Nwangwu Close,Lekki Phase 1 Lekki,Lagos State,Nigeria",
+        "email": "info@nextzon.com",
+        "phoneNumber": "+234 812 722 7044",
+        "websiteURL": "https://nextzon.com",
+        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/nexton.jpg",
+        "description": "Nextzon Business Services is a collective mission of building and transforming business enterprises for phenomenal success operating"
+      },
+      {
+        "ID": "IOV/008",
+        "name" :"SEEPCO",
+        "membership": "Bronze",
+        "address": "205 Abiola Segun St,Off Muri Okunola Street,Victoria Island,Lagos,Nigeria",
+        "email": "info@stroilng.com",
+        "phoneNumber": "+234 90 7000 2300",
+        "websiteURL": "https://www.stroilng.com",
+        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/seepco.jpg",
+        "description": "Steering Oil Exploration & Energy Production Company Ltd(SEEPCO) is an incorporated company that specializes on exploration and production of Okwuibome Blend of crude oil that is recognized by the Nigerian National Petroleum Corporation(NNPC)"
+      },
+      {
+        "ID": "IOV/009",
+        "name" :"Alibert Furniture",
+        "membership": "Silver",
+        "address": "Lagos, Nigeria",
+        "email": "contact@tyresonline.ng",
+        "phoneNumber": "+234 1 710 1239",
+        "websiteURL": "https://www.alibert-group.com/",
+        "logoURL" : "https://giyip.github.io/wdd230/chamber/images/jsonLogos/alibert.jpg",
+        "description": "Alibert furniture is known to be one of the largest family-owned furniture manufacturers in West Africa. Alibert furniture has two of its major showrooms in Victoria Island and Lekki Peninsula."
+      }
+    ]
+  }

@@ -1,141 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Bankole Ebenezer">
-        <meta name="description"
-            content="Home page for the Eben Chamber of Commerce which includes a summary of information regarding the chamber and its members">
-        <meta name="title" content="EbenezerChamber of Commerce">
-        <meta property="og:title" content="Bankole Chamber of Commerce">
-        <meta property="og:description"
-            content="Discover page for the Ebenezer Chamber of Commerce which includes a summary of information regarding the chamber and its members">
-        <meta property="og:image" content="images/rexburg-city.sgv">
-        <meta property="og:url" content="">
-        <meta property="og:type" content="website">
-        <meta property="og:site_name" content="Ebn Chamber of Commerce">
-        <meta property="og:locale" content="en_US">
-        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/larger.css">
 
-        <link rel="icon" href="images/favicon.jpg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="description" content="Bankole Ebenezer chamber of commerce home page">
+    <title>Bankole Ebenezer</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="images/hd4/1.png" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Satisfy&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
 
-        <title>Rexburg Chamber of Commerce | Discover</title>
-    </head>
-    <body>
-        <!-- <section id="banner">
-            <h3 id="meeting-message">Come and join us this wednesday at 7PM for our weekly meet and greet.<span
-                id="close-banner">❌</span></h3> -->
-        </section>
+<body>
+    <header class="header-grid">
+        <div class="logo-info"><img class="logo-img" src="images/hd4/1.webp" alt="Bankole Ebenezer chamber logo">
+            <div id="name">
+                <h1>Bankole Ebenezer</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/godwin-iyip/" target="_blank"><img src="images/linkedin.jpg" alt="linkedin icon"></a>
+            <a href="https://mobile.twitter.com/IyipGodwin/" target="_blank"><img src="images/twitter.png" alt="Twitter icon"></a>
+        </div>
+        <button id="nav-btn">
+            <span>&#9776;</span>
+            <span>X</span>
+        </button>
         <nav>
-            <img id="nav-logo" src="images/favicon.jpg" alt="Clear Water Chamber of Commerce Logo">
-            <div id="hamburger">
-                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
-                    <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
-                </svg>
-            </div>
-            <div id="close-button">
-                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
-                    <path
-                        d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
-                </svg>
-            </div>
-            <ul id="menu-items">
-                <li class="menu-item"><a href="index.html">Home</a></li>
-                <li class="menu-item"><a href="discover.html">Discover</a></li>
-                <li class="menu-item"><a href="directory.html">Directory</a></li>
-                <li class="menu-item"><a href="join.html">Join</a></li>
+            <ul id="navUl">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
-            <!-- Weather Place holder that will be automated to get are weather by Javascript -->
-            <div id="weather">
-            </div>
         </nav>
-        <header>
-            <section class="hero">
-                <div class="hero-content">
-                    <h1>Clear Water Chamber of Commerce</h1>
-                    <p>
-                        The Clear Water Chamber of Commerce is a non-profit organization that
-                        promotes the business community of Clear Water, Idaho. We are a
-                        community of business owners and professionals who are dedicated to
-                        the growth and success of our community.
-                    </p>
-                    <a href="#">Join Now</a>
-                </div>
-            </section>
-        </header>
-        <main>
-            <!-- Member Showcase Section -->
-            <div id="members">
-                <h2 id="member-heading">Members</h2>
-                <section class="member">
-                </section>
-                <section class="member">
-                </section>
-                <section class="member">
-                </section>
-                <section class="member">
-                </section>
+        <div id="header-date">
+            <!-- JS! -->
+        </div>
+        <div class="banner hide"><p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+    </header>
+    <main>
+        <div class="block hero" id="hero">
+            <picture id="heroPhoto">
+                <source media="(min-width: 1000px)" srcset="images/hero-large.jpg">
+                <source media="(min-width: 600px)" srcset="images/hero-medium.jpg">
+                <source media="(min-width: 300px)" srcset="images/hero-small.jpg">
+                 <img src="images/hero-base.jpg" alt="Chamber members in meeting">
+             </picture>
+            <h2>Welcome to the <br/><span>Bankole Ebenezer</span></h2>
+            <a href="join.html" id="join-btn">Join the Chamber</a>
+        </div>
+        <div class="block event sub">
+            <h2>Ribbon Cutting</h2>
+            <h3>Mays Place</h3>
+            <p>Join us for the grand opening of Mays Place, Thursday at 5:00p.m</p>
+        </div>
+        <div class="block weather sub">
+            <h2>Weather</h2>
+            <img id="icon" src="images/weather.png" alt="weather icon" loading="lazy">
+            <h3><span id="temp"></span>°C</h3>
+            <hr>
+            <p id="location-weather"></p>
+            <p id="icon-desc"></p>
+            
+            <p>Wind Speed: <span id="speed"></span>km/h</p>
+            
+        </div>
+        <div class="block join">
+            <button>Join Us!</button>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+        </div>
+        <div class="block news sub">
+            <h2>News Release</h2>
+            <p>The CBN's economic report for the month of February 2022, noted that the naira exchange rate at the I&E window remained relatively stable in the review period despite the upscaling of cyclical and structural demand factors amidst foreign exchange supply constraints.
+        </div>
+        <div class="placeholder-spotlights" id="spotlights">
+            <div class="spotlight">
+                <h2>Whiz Tech</h2>
+                <img src="images/wizTech.jpg" alt="Whiz Tech logo">
+                <hr>
+                <p>info@Ebenezer.com</p>
+                <p>+234 123 -1234 | Website</p>
             </div>
-            <!-- Events -->
-            <section class="events">
-                <!-- To be filled in by a JSON Document by Javascript code when called from server -->
-                <!-- Below is a sample of the layout -->
-                <div class="event-content">
-                    <h2>Annual COC Cookout</h2>
-                    <p class="event-description">
-                        Join us for a whole family filled day of fun. With Members having displays and specials for the day. There will be
-                        food, drinks, and games for the kids. Come and join us for a day of fun.
-                        15 June 2023 
-                        8am - 8pm
-                        23 Waverly Place 
-                    </p>
-                    <p class="event-details">
-                        8am-8pm 15 June 2023 |
-                        Waverley Park
-                    </p>
-                    <a class="event-button" href="discover.html">Learn More</a>
-                </div>
-            </section>
-            <!-- Chamber of Commerce Team -->
-            <div class="team">
-                <section class="team-member" id="team-member-1">
-                    <img src="images/profile-1.webp" alt="Jacky Thomson">
-                    <h2>Jacky Thomson</h2>
-                    <p>Director</p>
-                </section>
-                <section class="team-member" id="team-member-2">
-                    <img src="images/profile-2.webp" alt="Jason Xhosa">
-                    <h2>Jason Xhosa</h2>
-                    <p>Finances</p>
-                </section>
-                <section class="team-member" id="team-member-3">
-                    <img src="images/profile-3.webp" alt="Jason Major">
-                    <h2>Johnny Major</h2>
-                    <p>Company Advisor</p>
-                </section>
+            <div class="spotlight">
+                <h2>Jays Health</h2>
+                <img src="images/jayhealth.png" alt="Health logo">
+                <hr>
+                <p>info@jayshealth.com</p>
+                <p>+234 123 -1234 | Website</p>
             </div>
-        </main>
-        <footer>
-            <p>123 Main Street Nigeria, NIg 12345</p>
-            <p>Phone: 555-555-5555</p>
-            <p>
-                Email:
-                <a href="mailto:hello@chamber.com"> helchamber.com</a>
-            </p>
-            <p id="footer-end">
-                &copy; <span id="copyYear"></span> Ebenezeeerhamber of Commerce |
-                 Bankole Ebne | WDD 231 | <span id="lastModified"></span>
-            </p>
-        </footer>
-
-        <script src="scripts/dates.js" defer></script>
-        <script src="scripts/mobileMenu.js" defer></script>
-        <script src="scripts/weather.js" defer></script>
-        <script src="scripts/banner.js" defer></script>
-        <script src="scripts/showcase.js" defer></script>      
-    </body>
+            <div class="spotlight spot-3" id="spot-3">
+                <h2>Mays Place</h2>
+                <img src="images/mays.jpg" alt="food logo">
+                <hr>
+                <p>info@maysplace.com</p>
+                <p>+234 123 -1234 | Website</p></div>
+        </div>
+    </main>
+    <footer>
+        <div class="first-half">
+            <div class="first-half-1">
+                <img class="footer-logo logo-img" src="images/hd4/1.webp" alt="Bankole Ebenezer logo">
+                <h2>Bankole Ebenezer Chamber</h2>
+                <span id="address">No. 65 Abeokuta, Ogun State 10231</span>
+            </div>
+            <div class="first-half-2">
+                <span id="email">info@Ebeeenee.org</span>
+                <span id="phone">+(234) 123334 44</span>
+                <span id="map">📍 Location Map</span>
+                <span class="last-visit abel-text">Last Visit: <span id="visit-string"></span></span>
+            </div>
+            </div>
+        </div>
+        <hr>
+        <div class="second-half">
+            <span id="footer-year">
+                <!-- JS! -->
+            </span>
+            <h2>Bankole  Ebeeeneeh2>
+            <span>WDD 231 Project</span>
+            <span class="last-modification">
+            </span>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/intersectionobserver.js"></script>
+    <script src="js/indexExtra.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+  
 </html>

@@ -1,0 +1,228 @@
+@media only screen and (min-width: 64rem) {
+    .header-grid {
+        grid-template-columns: max-content 1fr min-content;
+        grid-template-rows: 1fr 4rem;
+        height: fit-content;
+    }
+    #header-date{
+        padding: 5px;
+    }
+    main{
+        padding:10px;
+        grid-gap: 20px;
+    }
+    .logo-info {
+        width: fit-content;
+        margin-right: 5rem;
+    }
+
+    .social-links {
+        margin: 0px;
+    }
+
+    nav {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    nav ul#navUl {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    button {
+        display: none;
+    }
+
+    main {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        padding-top: 2rem;
+        margin: 0px;
+    }
+
+    .placeholder-item {
+        margin: 2px;
+        border-radius: 2px;
+    }
+
+    .event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 90%;
+        height: 84%;
+    }
+
+    .weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 90%;
+        height: 84%;
+    }
+
+    .join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 90%;
+        height: 80%;
+    }
+    .join a{
+        display: block;
+    }
+
+    .hero{
+        padding: 0px;
+        height: 97%;
+        grid-column: 2/4;
+        grid-row: 1/3;
+        grid-template-columns: 50% 1fr;
+        grid-template-rows: 80% 1fr;
+        
+    }
+    .hero #heroPhoto{
+        grid-row: 1/-1;
+        grid-column: 1/-1;
+    }
+    .hero h2{
+        padding: 1rem;
+        font-size: 3rem;
+        height: fit-content;
+    }
+    .hero button{
+        display: block;
+        margin-left: 0rem;
+        font-size: 1.3rem;
+        align-self: flex-start;
+        justify-self: start;
+        width: 100%;
+        margin-bottom: 30px;
+        transition: all 0.2s;
+        z-index: 7;
+
+    }
+    .news {
+        grid-column: 2/4;
+        width: 94%;
+        padding: 1.2rem;
+        grid-row: 3/4;
+    }
+    
+    .placeholder-spotlights {
+        width: 90%;
+        height: 97%;
+        grid-column: 4/5;
+        grid-row: 1/4;
+        padding: 10px;
+        margin: 10px;
+        height: 96%;
+        display: grid;
+        row-gap: 3rem;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .spotlight {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+        #spot-3 {
+        display: block;
+        display: grid;
+        justify-items: center;
+        width: auto;
+        height: 90%;
+        }
+
+    /* //////////////////////////////////////////// */
+    /* DISCOVER PAGE */
+    
+
+    #gallery .photo:hover{
+        padding-left: 2rem;
+        box-shadow: 0px 0px 10px #010d14;
+    }
+    #gallery .photo{
+        grid-template-columns: 1fr 1fr;
+    }
+    #gallery .photo .right-img{
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+    main #gallery{
+        max-width: 80vw; 
+    }
+
+    #gallery .photo .left-text{
+        padding: 10px;
+        grid-column: 1/2;
+        grid-row:1/2;
+    }
+    #gallery .photo .info{
+        padding: 2rem;
+    }
+    /* ////////////////////////////
+     /* Join page */
+     form{
+         width: 30rem;
+     }
+     .main-join-area{
+        max-width: 50rem;
+     }
+     fieldset{
+         width: 28rem;
+     }
+     #description{
+         width: 29.8rem;
+     }
+
+     /* ////////////////////////// */
+     /* Directory */
+     .grid-directory{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding: 2rem;
+     }
+     .flex-directory{
+        display: grid;
+        gap:0px;
+     }
+     .company:hover{
+        padding: 0.3rem;
+        background-color:  #141516;
+        color: whitesmoke;
+        transition: all 0.3s;
+     }
+     .list-company{
+        font-size: large;
+     }
+     .list-company:hover{
+        padding:0.625rem;
+        text-align: left;
+        background-color: white;
+        color: #141516;
+    }
+     .company{
+        padding:10px;
+     }
+
+     /* Contact */
+
+     iframe{
+        width: 90%;
+     }
+     .contact-form{
+        width: 60vw;
+    }
+    .contact-form .join-btn{
+        width: 50%;
+    }
+    
+}

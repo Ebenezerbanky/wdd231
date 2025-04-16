@@ -1,177 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Bankole Ebenezer">
-        <meta name="description"
-            content="Home page for theEben Chamber of Commerce which includes a summary of information regarding the chamber and its members">
-        <meta name="title" content="Nija Chamber of Commerce">
-        <meta property="og:title" content="Nija Chamber of Commerce">
-        <meta property="og:description"
-            content="Discover page for theEben Chamber of Commerce which includes a summary of information regarding the chamber and its members">
-        <meta property="og:image" content="images/rexburg-city.sgv">
-        <meta property="og:url" content="">
-        <meta property="og:type" content="website">
-        <meta property="og:site_name" content="Nija Chamber of Commerce">
-        <meta property="og:locale" content="en_US">
-        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/larger.css">
 
-        <link rel="icon" href="images/favicon.jpg">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="description" content="Ebeeeber of commerce home page">
+    <title>Ebenezer</title>
+    <link rel="shortcut icon" type="image/png" href="images/icon.png" />
+    <link rel="icon" href="favicon.ico" type="image/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata:wght@300&display=swap">
+</head>
 
-        <title>Nija Chamber of Commerce | Discover</title>
-    </head>
-    <!-- <body>
-        <section id="banner">
-            <h3 id="meeting-message">Come and join us this wednesday at 7PM for our weekly meet and greet.<span
-                id="close-banner">❌</span></h3> -->
-        </section>
+<body>
+    <header class="header-grid">
+        <div class="logo-info"><img class="logo-img" src="images/hd4/1.png" alt="MainLand Valley chamber logo">
+            <div id="name">
+                <h1>Eben-Dev1
+                <h2>Chamber of Commerce</h2>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/godwin-iyip/" target="_blank"><img src="images/linkedin.jpg" alt="linkedin icon"></a>
+            <a href="https://mobile.twitter.com/IyipGodwin/" target="_blank"><img src="images/twitter.png" alt="Twitter icon"></a>
+        </div>
+        <button id="nav-btn">
+            <span>&#9776;</span>
+            <span>X</span>
+        </button>
         <nav>
-            <img id="nav-logo" src="images/favicon.jpg" alt="Clear Water Chamber of Commerce Logo">
-            <div id="hamburger">
-                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
-                    <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
-                </svg>
-            </div>
-            <div id="close-button">
-                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
-                    <path
-                        d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
-                </svg>
-            </div>
-            <ul id="menu-items">
-                <li class="menu-item"><a href="index.html">Home</a></li>
-                <li class="menu-item"><a href="discover.html">Discover</a></li>
-                <li class="menu-item"><a href="directory.html">Directory</a></li>
-                <li class="menu-item"><a href="join.html">Join</a></li>
+            <ul id="navUl">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a class="active" href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
-            <!-- Weather Place holder that will be automated to get are weather by Javascript -->
-            <div id="weather">
-            </div>
         </nav>
-        <header>    
-            <section id="hero-1" class="hero">
-                <div class="hero-content">
-                    <h1>Nija Chamber of Commerce</h1>
-                    <p>
-                        TheEben Chamber of Commerce is a dynamic and influential organization dedicated to fostering economic vitality and community growth in Nija, Naija 
-                    </p>
-                    <a href="join.html">Join Now</a>
-                </div>
-            </section>
-        </header>
-        <main>
-            <section class="joinForm">
-                <h2>Join The Chamber</h2>
-                <form action="thankyou.html" method="get" id="join">
-                    <!-- Personal Information Section -->
-                    <fieldset>
-                        <legend>Personal Information</legend>
-                        <label class="top" for="name">Name: <input type="text" name="name" id="name" required></label>
-                        <label class="top" for="surname">Surname: <input type="text" name="surname" id="surname" required></label>
-                        <label class="top" for="email">Email: <input type="email" name="email" id="email" required></label>
-                        <label class="top" for="phone">Phone: <input type="tel" name="phone" id="phone" required></label>
-                    </fieldset>
-                    <!-- Business Information Section -->
-                    <fieldset>
-                        <legend>Business Information</legend>
-                        <label class="top" for="business-name">Business Name: <input type="text" name="business-name"
-                            id="business-name" pattern="(?=.*[ -])(?=.*[a-z]).{7,}"></label>
-                        <!-- Radio Box with Options NP , Bronze , Silver , Gold -->
-                        <div>Membership Level: </div>
-                        <label class="sbs"><input type="radio" name="membership" id="membership-np" value="NP" required> NP</label>
-                        <label class="sbs"><input type="radio" name="membership" id="membership-bronze" value="Bronze" required>
-                        Bronze</label>
-                        <label class="sbs"><input type="radio" name="membership" id="membership-silver" value="Silver" required>
-                        Silver</label>
-                        <label class="sbs"><input type="radio" name="membership" id="membership-gold" value="Gold" required>
-                        Gold</label>
-                        <label class="top" for="description">Description: <textarea name="description"
-                            id="description"></textarea></label>
-                    </fieldset>
-                    <!-- Hidden input with time as value -->
-                    <input type="hidden" name="time" id="time" value="">
-                    <!-- Submit Button -->
-                    <input type="submit" value="Submit" class="submitBtn">
-                </form>
-                <div class="memberLevels">
-                    <!-- Table with Member Levels. Showing Costs and Benefits -->
-                    <h3>Member Cost and Benefits</h3>
-                    <table>
-                        <caption>Member Levels</caption>
-                        <thead>
-                            <tr>
-                                <th>Membership Level</th>
-                                <th>Cost</th>
-                                <th>Benefits</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>NP</td>
-                                <td>Free</td>
-                                <td>
-                                    <ul>
-                                        <li>Same As Gold</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Bronze</td>
-                                <td>$100</td>
-                                <td>
-                                    <ul>
-                                        <li>Listing on Directory</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Silver</td>
-                                <td>$200</td>
-                                <td>
-                                    <ul>
-                                        <li>Listing on Directory</li>
-                                        <li>Event Participation</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Gold</td>
-                                <td>$300</td>
-                                <td>
-                                    <ul>
-                                        <li>Listing on Directory</li>
-                                        <li>Event Participation</li>
-                                        <li>Discounts on Advertising</li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <p>123 Main Street Nija, Abokuta 12345</p>
-            <p>Phone: 12459405695</p>
-            <p>
-                Email:
-                <a href="mailto:hello@ebnchamber.com"> hello@ebcnchamber.com</a>
-            </p>
-            <p id="footer-end">
-                &copy; <span id="copyYear"></span>Eben Chamber of Commerce |
-               Bankole Ebenezer| WDD 231 | <span id="lastModified"></span>
-            </p>
-        </footer>
+        <div id="header-date">
+            <!-- JS! -->
+        </div>
+        <div class="banner hide">
+            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+        </div>
+    </header>
+    <main>
+        <div class="main-area main-join-area">
+        <h1 class="abel-text">Join us at Eben-DeNigeria!</h1>
+        <p class="abel-text">
+            Our strength at the MainLand Valley is in our members. And with all the benefits we offer from connections, business advisory services, Networking Opportunities, discounts for participation at the International Trade Fair, and a lot of business development services, It's a win-win situation. Help us grow as we help you grow.
+        </p>
+        <form class="abel-text form" method="GET" action="thankyou.html">
+            <fieldset>
+                <legend>Basic Information</legend>
+                <label class="block-text">First Name<span class="hy">*</span>
+                <input class="block-input" type="text" name="fname" required></label>
+                <label class="block-text">Last Name<span class="hy">*</span>
+                <input class="block-input" type="text" name="lname" required></label>
+                <label class="block-text">Business Position
+                <input class="block-input" type="text" name="Position"
+                title="Can only include alpha characters, hyphens, and spaces and must contain a minimum of 7 characters" pattern="[A-Za-z -]{7,}"></label>
+                <label class="block-text">Email<span class="hy">*</span>
+                <input placeholder=" someone@email.com" class="block-input" type="email" name="email" required></label>
+                <label class="block-text">Telephone<span class="hy">*</span>
+                <input class="block-input" type="tel" name="phone" required></label>
+                <label class="block-text">Business Name/Title<span class="hy">*</span>
+                <input class="block-input" name="business" type="text" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership</legend>
+                <div>Membership Level</div>
+                <label  class="block-radio"><input type="radio" name="membership" value="np"> NP Membership</label>
+                <label  class="block-radio"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                <label  class="block-radio"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                <label  class="block-radio"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+            </fieldset>
+            <label  class="block-text">
+                Business Description
+                <textarea id="description" class="block-input"></textarea>
+            </label>
+            <label><input type="hidden" value="curdateandtime" id="curtime"></label>
+            <input class="join-btn" type="submit" value="Join The Chamber">
+            
+        </form>
+        <h4 class="last-visit abel-text">Last Visit: <span id="visit-string"></span></h4>
+    </div>
+    </main>
+    <footer>
+        <div class="first-half">
+            <div class="first-half-1">
+                <img class="footer-logo logo-img" src="images/hd4/1.png" alt="MainLand Valley logo">
+                <h2>Ebenezer chamber</h2>
+                <span id="address">No. 22, Mosa fun-eto Street, Oke-Ata, Abeokuta, Ogun State 10231</span>
+            </div>
+            <div class="first-half-2">
+                <span id="email">info@MainLandValley.org</span>
+                <span id="phone">+(234) 809 733 5444</span>
+                <span id="map">📍 Location Map</span>
+            </div>
+        </div>
+        <hr>
+        <div class="second-half">
+            <span id="footer-year">
+                <!-- JS! -->
+            </span>
+            <h2>Ebenezer </h2>
+            <span>WDD 231</span>
+            <span class="last-modification">
+            </span>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/windchill.js" defer></script>
+    <script>
+        hiddenInput.setAttribute("value", `${curDay()}, ${curDayofMonth} ${curMonth()} ${curYear} | ${curHour}:${curMinute}:${curSecond}`)
+    </script>
+</body>
 
-        <script src="scripts/dates.js" defer></script>
-        <script src="scripts/mobileMenu.js" defer></script>
-        <script src="scripts/weather.js" defer></script>
-        <script src="scripts/banner.js" defer></script>
-        <script src="scripts/showcase.js" defer></script>      
-    </body>
 </html>
